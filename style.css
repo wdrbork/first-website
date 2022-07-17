@@ -7,9 +7,9 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    gap: 72px;
+    gap: 100px;
     background-color: #1f2937;
-    padding: 20px 180px 40px;
+    padding: 20px 180px 100px;
 }
 
 .top {
@@ -28,24 +28,54 @@ body {
 
 .content {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
 }
 
 #hero {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 1000;
+    margin: 0;
+}
+
+#hero-subtext, #placeholder, a, ul, button {
+    margin: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#placeholder {
+    font-size: 18;
+    background-color: grey;
+    padding: 128px 160px;
+}
+
+button {
+    margin-top: 8px;
+    width: 120px;
+    height: 36px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #3882f6;
+    border: none;
 }
 
 ul {
     display: flex;
     list-style-type: none;
     gap: 18px;
-    font-size: 18px;
     margin: 0;
     padding: 0;
 }
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
 }
