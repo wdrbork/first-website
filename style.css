@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    background-color: #1f2937;
+    padding: 20px 180px 40px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #e5e7eb;
+}
+
+#logo {
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 18px;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
