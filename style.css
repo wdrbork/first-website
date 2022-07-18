@@ -63,7 +63,8 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 64px;
-    padding: 64px;
+    padding-top: 64px;
+    padding-bottom: 120px;
 }
 
 .title {
@@ -74,7 +75,8 @@ body {
 
 .all-cards {
     display: flex;
-    gap: 80px;
+    gap: 64px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -96,6 +98,28 @@ body {
     font-size: 18px;
     color: grey;
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    padding: 120px 480px 120px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    text-align: justify;
+    font-style: italic;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    align-self:flex-end;
 }
 
 button {
